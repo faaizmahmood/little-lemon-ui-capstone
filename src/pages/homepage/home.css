@@ -1,0 +1,174 @@
+/********* HERO SECTION *********/
+.hero-section {
+    padding: 2rem;
+    background-color: var(--primaryColor);
+    color: #fff;
+    /* position: relative; */
+    /* z-index: 1;
+    height: 400px; */
+}
+
+/* .col-2 img {
+    margin-top: .5rem;
+    position: absolute;
+    z-index: 2;
+    top : 180px;
+} */
+
+.hero-title {
+    color: var(--secondaryColor);
+}
+
+.hero-location {
+    font-weight: 700;
+    letter-spacing: .75px;
+}
+
+.hero-descr {
+    max-width: 45ch;
+}
+
+.hero-image {
+    border-radius: 8px;
+    height: auto;
+    max-width: 300px;
+    max-height: 367px;
+    margin: 2rem;
+}
+
+/********* HIGHLIGHTS SECTION *********/
+.highlights-section {
+    margin: 6rem 0 2rem auto;
+    padding: 2rem;
+}
+
+.testimonials {
+    list-style: none;
+}
+
+/********* TESTIMONIALS SECTION *********/
+.testimonials-section {
+    margin: 6rem ;
+}
+
+.section-title {
+    text-align: center;
+}
+
+.testimonials {
+    margin: 4rem 1rem;
+    padding: 1rem;
+}
+
+.user {
+    margin: 2rem 0;
+}
+
+.user-review {
+    max-width: 20ch;
+}
+
+/********* ABOUT SECTION *********/
+
+.about-section {
+    margin: 6rem 0;
+}
+
+.about-info {
+    margin: auto auto auto 6rem;
+    overflow:hidden;
+}
+
+.about-images {
+    margin: auto auto auto 12rem;
+    width: fit-content;
+}
+
+.overlap-1 {
+    position: relative;
+    z-index: 1;
+
+}
+
+.overlap-2 {
+    position: relative;
+    z-index: 2;
+    top: -30px;
+    left: -100px;
+}
+
+
+/* Tablet */
+@media screen and (width >= 800px) {
+    /********* TESTIMONIALS SECTION *********/
+    .testimonials {
+        display: flex;
+        flex: row wrap;
+        align-items: center;
+        justify-content: space-evenly;
+        margin: auto 2rem;
+        width: 100%;
+    }
+}
+
+/* Desktop */
+@media screen and (width >= 1000px) {
+/********* HERO SECTION *********/
+    .hero-section, .card-gallary {
+        display: flex;
+        flex: row nowrap;
+        align-items: center;
+        justify-content: center;
+        gap: 2rem;
+    }
+
+    .hero-title {
+        margin: auto;
+    }
+
+    .hero-section {
+        overflow-x: hidden;
+     }
+
+    /********* HIGHLIGHTS SECTION *********/
+    .card-gallary {
+        gap: 2rem;
+    }
+
+    .announcement{
+        display: flex;
+        flex: row nowrap;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+    }
+
+    /********* TESTIMONIALS SECTION *********/
+    .testimonials {
+        display: flex;
+        flex: row nowrap;
+        align-items: center;
+        justify-content: space-evenly;
+        margin: auto 2rem;
+        width: 100%;
+    }
+
+    .user {
+        max-width: 25ch;
+        width: fit-content;
+    }
+
+    /********* ABOUT SECTION *********/
+    .about-section {
+        display: flex;
+        flex: row nowrap;
+        align-items: center;
+        justify-content: space-around;
+        margin: 6rem 2rem;
+        width: 100%;
+    }
+
+    .about-images {
+        margin: auto auto auto 4rem;
+    }
+}

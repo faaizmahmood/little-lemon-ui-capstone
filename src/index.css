@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,300;0,400;1,400&family=Markazi+Text:wght@700&display=swap');
+
+:root {
+  --primaryColor: #495E57;
+  --secondaryColor: #F4CE14;
+  }
+
+.ctaButtonColor {
+  background-color: var(--secondaryColor);
+  color: #333;
+  transition: all 0.2s ease-in-out;
+}
+
+.ctaButtonColor:hover {
+  background-color: #333;
+  color: var(--secondaryColor);
+  margin: 2rem auto;
+  transition: all 0.2s ease-in-out;
+}
+
+.orderButtonColor {
+  background-color: var(--primaryColor);
+  color: #fff;
+  margin: 1.75rem auto;
+  transition: all 0.2s ease-in-out;
+}
+
+.orderButtonColor:hover {
+  background-color: #fff;
+  border: 1px solid var(--primaryColor);
+  color: var(--primaryColor);
+  transition: all 0.2s ease-in-out;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+  /*TODO: Horizontal scroll bar...? */
+  overflow-x: hidden;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Karla, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Desktop */
+/* @media screen and (width >= 1000px) {
+  body {
+      width: 100%;
+  }
+} */
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* Write the CSS for Screen Readers Only */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Markazi Text', serif;
+}
+
+h1 {
+  font-size: 3.815rem;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 3.052rem;
+  font-weight: 700;
+}
+
+h3 {
+  font-size: 2.441rem;
+  font-weight: 700;
+}
+
+h4 {
+  font-size: 1.953rem;
+  font-weight: 400;
+}
+
+h5 {
+  font-size: 1.563rem;
+  font-weight: 400;
+}
+
+h6 {
+  font-size: 1.25rem;
+  font-weight: 100;
+}
+
+p {
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+small {
+  font-style: italic;
+  font-size: 0.8rem;
+}
+
+.icons {
+  font-size: 2rem;
+  margin: 1rem auto auto auto;
+}
+
+img {
+  border-radius: 4px;
+}

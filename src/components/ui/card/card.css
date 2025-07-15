@@ -1,0 +1,45 @@
+.card {
+    border: 1px solid hsl(0,0%, 80%);
+    border-radius: 8px;
+    box-shadow: 0 0 8px 0 hsla(0,0%,0%,.25);
+    margin: 1rem;
+    width: 100%;
+    max-width: 300px;
+}
+
+.card-img {
+    border-radius: 8px 8px 0 0;
+    height: auto;
+    width: 100%;
+    max-width: 300px;
+    max-height: 300px;
+}
+
+.card-body {
+    padding: .95rem;
+    min-height: 250px;
+    margin: 0;
+}
+
+.card-details {
+    display: flex;
+    flex: row nowrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card-title {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin: 1rem 0;
+    max-width: 20ch;
+}
+
+.card-delivery {
+    border: 1px solid hsl(0,0%, 80%);
+    border-radius: 8px;
+    font-weight: 700;
+    margin: 1rem 0;
+    max-width: fit-content;
+    padding: .5rem;
+}
