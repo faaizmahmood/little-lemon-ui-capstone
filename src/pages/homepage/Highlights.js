@@ -6,7 +6,9 @@ export default function Highlights() {
         <section className='highlights-section'>
             <div className='announcement'>
                 <h2>This weeks specials!</h2>
-                <Button color='orderButtonColor' text="Order online" />  
+                
+                <Button color='orderButtonColor' text="Order online" /> 
+
             </div>
             <CardGallary />
         </section>
