@@ -88,6 +88,7 @@ export default function ReservationForm( {
                     ))}
                 </select>
             </FormField>
+            
             <FormField
                 label='Guests'
                 htmlFor='guests'
@@ -108,6 +109,7 @@ export default function ReservationForm( {
                     onChange={(e) => setGuests(e.target.value)}
                 />
             </FormField>
+
             <FormField
                 label='Occasion'
                 htmlFor='occasion'
