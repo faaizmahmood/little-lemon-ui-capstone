@@ -51,7 +51,7 @@ To run the project locally:
 
 Clone the Repository
 ```bash
-git clone https://github.com/faaizmahmood/little-lemon-app.git
+git clone https://github.com/faaizmahmood/little-lemon-ui-capstone
 ```
 Navigate to the Directory
 ```bash
