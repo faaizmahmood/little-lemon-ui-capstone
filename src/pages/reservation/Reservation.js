@@ -42,11 +42,13 @@ function Reservation() {
     <main className='reservation-container'>
       <h1 style={{marginTop:'300px'}}>Book Now</h1>
       <ReservationProvider>
+
         <ReservationForm
           availableTimes={availableTimes}
           dispatchOnDateChange={dispatch}
           submitData={submitData}
         />
+        
       </ReservationProvider>
     </main>
   );
