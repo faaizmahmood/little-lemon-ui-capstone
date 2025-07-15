@@ -12,6 +12,7 @@ import { NavMobile } from './NavMobile';
 function Header() {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
 
+    // eslint-disable-next-line no-unused-vars
     function toggleMenu() {
         console.log('toggle menu');
         setIsMenuOpen(!isMenuOpen);

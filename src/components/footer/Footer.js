@@ -1,14 +1,15 @@
 import { FaFacebookSquare, FaTwitterSquare, FaInstagramSquare } from "react-icons/fa";
 
+import Logo from '../../assets/Logo.svg';
 import './footer.css';
 
 const Footer = () => {
     return (
-        <footer className='footer-section'>
+        <footer className='footer-section' style={{marginTop:'30px'}}>
             <article className='footer-grid'>
                 <h2 className='sr-only'>Site Footer</h2>
                 <section>
-                    <img src='https://via.placeholder.com/150x200' alt='logo' />
+                    <img src={Logo} alt='logo' />
                 </section>
                 <section>
                     <h3 className='footer-titles'>Site Menu</h3>
@@ -23,14 +24,14 @@ const Footer = () => {
                 </section>
                 <section>
                     <h3 className='footer-titles'>Contact</h3>
-                    <address>
-                        <a href="mailto:info@littlelemon.com">info@littlelemon.com</a><br />
-                        <a href="tel:+14800000000">(480) 000-0000</a>
+                    <address >
+                        <a style={{color:'white'}} href="mailto:info@littlelemon.com">info@littlelemon.com</a><br />
+                        <a style={{color:'white', marginTop:'10px'}} href="tel:+14800000000">(+92) 300-0000000</a>
                     </address>
                 </section>
                 <section>
                     <h3 className='footer-titles'>Social Media</h3>
-                    <ul>
+                    <ul style={{display:'flex', justifyContent:'space-between'}}>
                         <li>
                             <a href='https://www.facebook.com'>
                                 <FaFacebookSquare aria-hidden='true' className='icons' />
