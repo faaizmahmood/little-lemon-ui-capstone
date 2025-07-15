@@ -7,6 +7,7 @@
     /* z-index: 1;
     height: 400px; */
     width: 100vw;
+
 }
 
 /* .col-2 img {
@@ -37,6 +38,7 @@
     margin: 2rem;
 }
 
+
 /********* HIGHLIGHTS SECTION *********/
 .highlights-section {
     margin: 6rem 0 2rem auto;
@@ -46,6 +48,7 @@
 .testimonials {
     list-style: none;
 }
+
 
 /********* TESTIMONIALS SECTION *********/
 .testimonials-section {
@@ -99,8 +102,10 @@
 }
 
 
+
 /* Tablet */
 @media screen and (width >= 800px) {
+    
     /********* TESTIMONIALS SECTION *********/
     .testimonials {
         display: flex;

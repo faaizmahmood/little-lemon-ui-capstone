@@ -1,12 +1,11 @@
 import { Link } from 'react-router-dom';
-
 import HeroImage from '../../assets/restaurant-food.jpg';
 import Button from '../../components/ui/button/Button';
 
 const Hero = () => {
 
     const handleClick = () => {
-        console.log('Button was clicked!');
+        console.log('Button was clicked! ');
       };
 
     return (
